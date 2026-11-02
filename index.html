@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#123a72">
+<title>Student Porta |MDhariful Islam</title>
+<style class="css"> 
+  .logo {   
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 13px;}
+</style>
+<style>
+:root{--navy:#123a72;--blue:#1769aa;--pale:#eef5ff;--ink:#17243b;--muted:#66758b;--line:#e1e8f2;--white:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:#f3f6fb;color:var(--ink);font-family:Inter,Arial,sans-serif;line-height:1.5}
+.topbar{background:linear-gradient(120deg,#102f60,#1769aa);color:#fff;padding:26px 18px 58px}
+.topinner{max-width:1000px;margin:auto;display:flex;align-items:center;gap:14px}
+.logo{width:64px;height:64px;flex:0 0 64px;background:#fff;border:1px solid #ffffff70;border-radius:14px;display:flex;align-items:center;justify-content:center;padding:5px;overflow:hidden}.logo img{display:block;width:100%;height:100%;object-fit:contain}
+.brand h1{font-size:22px;margin:0}.brand p{margin:3px 0 0;color:#dbeafe;font-size:13px}
+.wrap{max-width:1000px;margin:-36px auto 40px;padding:0 16px}
+.panel{background:#fff;border-radius:20px;box-shadow:0 12px 34px #14345a12;border:1px solid #e6edf6;overflow:hidden}
+.profilehead{padding:26px;display:flex;gap:22px;align-items:center;border-bottom:1px solid var(--line)}
+.avatar{width:100px;height:100px;flex:0 0 100px;border-radius:50%;background:#e8eef8;display:block;object-fit:cover;border:3px solid #e1eaf7}
+.profilehead h2{margin:0 0 5px;font-size:25px}.sub{color:var(--muted);margin:0}
+.status{display:inline-block;margin-top:10px;background:#e8f7ee;color:#197143;border-radius:30px;padding:5px 10px;font-size:12px;font-weight:700}
+.content{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:24px;padding:26px}
+.section-title{font-size:15px;color:var(--navy);margin:0 0 14px;text-transform:uppercase;letter-spacing:.07em}
+.details{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
+.item{padding:12px 0;border-bottom:1px solid #edf1f6;min-width:0}
+.label{font-size:12px;color:var(--muted);margin-bottom:4px}
+.value{font-size:14px;font-weight:600;overflow-wrap:anywhere}
+.full{grid-column:1/-1}
+.qrbox{border:1px solid var(--line);border-radius:16px;padding:18px;text-align:center;align-self:start;background:#fbfdff}
+#qrcode{min-height:190px;display:grid;place-items:center;margin:12px auto}
+#qrcode img,#qrcode canvas{max-width:100%;height:auto!important}
+.qrbox h3{font-size:16px;margin:0}.qrbox p{font-size:12px;color:var(--muted);margin:8px 0}
+.qrnote{font-size:11px!important}
+.course{margin:0 26px 26px;padding:20px;border-radius:14px;background:var(--pale);border:1px solid #dbeafe}
+.course h3{margin:0 0 12px;font-size:15px;color:var(--navy)}
+.course-name{font-size:17px;font-weight:750}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.chip{background:#fff;border:1px solid #d6e4f7;border-radius:9px;padding:7px 10px;font-size:12px}
+.social{padding:22px 26px;border-top:1px solid var(--line);text-align:center;background:#fbfdff}
+.social h3{margin:0 0 12px;color:var(--navy);font-size:15px;text-transform:uppercase;letter-spacing:.06em}
+.social-links{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.social-links a{display:inline-flex;align-items:center;gap:7px;text-decoration:none;color:var(--navy);background:#fff;border:1px solid #dbe5f2;border-radius:10px;padding:9px 13px;font-size:13px;font-weight:700;transition:.2s}
+.social-links a:hover{background:var(--navy);color:#fff}
+.footer{padding:18px;text-align:center;color:var(--muted);font-size:12px}
+button{border:0;border-radius:10px;background:var(--navy);color:#fff;padding:10px 14px;font-weight:700;cursor:pointer}
+@media(max-width:700px){.content{grid-template-columns:1fr;padding:20px}.profilehead{padding:20px}.details{grid-template-columns:1fr 1fr}.qrbox{order:-1}.wrap{padding:0 10px}.profilehead h2{font-size:21px}}
+@media(max-width:420px){.details{grid-template-columns:1fr}.full{grid-column:auto}.avatar{width:76px;height:76px;flex-basis:76px}.topbar{padding-bottom:52px}}
+@media print{body{background:#fff}.topbar{padding-bottom:24px}.wrap{margin:16px auto}.panel{box-shadow:none}.qrbox button{display:none}}
+.profilehead .img{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topinner">
+    <div class="logo"><img src="https://i.ibb.co.com/Q7WjPmkf/Advan-TEK-Logo-01.png" alt="Advan-TEK-Logo-01" border="0"></div>
+    <div class="brand"><h1> AdvanTEK Student Portal</h1><p>Student information & course verification</p></div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="panel">
+    <div class="profilehead">
+       <img class="img" src="https://i.ibb.co.com/HLnxrmXg/Whats-App-Image-2026-11-02-at-2-20-41-PM.jpg">
+      <div>
+        <h2>Siam Hosen</h2>
+        <p class="sub">Student ID: ATE-LTMC6019</p>
+        <span class="status">Student Profile</span>
+      </div>
+    </div>
+    <div class="content">
+      <div>
+        <h3 class="section-title">Personal Information</h3>
+        <div class="details">
+          <div class="item"><div class="label">Father's Name</div><div class="value">
+            Jilal Hosen 
+          </div></div>
+          <div class="item"><div class="label">Mother's Name</div><div class="value">
+            Sima Khatun 
+          </div></div>
+          <div class="item"><div class="label">Date of Birth</div><div class="value">
+           05/08/2005
+          </div></div>
+          <div class="item"><div class="label">Blood Group</div><div class="value">AB+</div></div>
+          <div class="item full"><div class="label">Present Address</div><div class="value">House:14, Road:08, Sector: 06, Uttara, Dhaka-1230</div></div>
+          <div class="item full"><div class="label">Permanent Address</div><div class="value">Pabna Sadar</div></div>
+          <div class="item"><div class="label">Mobile Number</div><div class="value">01893-167523</div></div>
+          <div class="item"><div class="label">Email</div><div class="value">sh9121590@gmail.com</div></div>
+          <div class="item full"><div class="label">Emergency Contact</div><div class="value">01806-857477</div></div>
+          <div class="item"><div class="label">Profession</div><div class="value">Job Holder</div></div>
+          <div class="item"><div class="label">Company</div><div class="value">NEDL Engineering Development Ltd.</div></div>
+          <div class="item full"><div class="label">Workplace Address</div><div class="value">NEDL Building, Rangamati Nir, Abdus Sattar Sarani Road, DUET, Gazipur-1707</div></div>
+        </div>
+      </div>
+      <aside class="qrbox">
+        <h3>Scan Student QR</h3>
+        <div id="qrcode"><span style="color:#66758b;font-size:12px">Preparing QR code…</span></div>
+        <p>Scan to open this student profile.</p>
+        <button onclick="window.print()">Print Profile</button>
+        <p class="qrnote">QR code works after this page is published online.</p>
+      </aside>
+    </div>
+
+    <div class="course">
+      <h3>Course & Enrollment</h3>
+      <div class="course-name">Electrical Installation & Maintenance, Motor 
+Controling</div>
+      <p>The student is enrolled in/completed the Professional Course offered by AdvanTEK Engineering Ltd., focusing on practical Electrical Installation, Industrial Motor Control, Electrical Wiring, and Motor Operation & Protection Systems.
+ <h3>Technical Competencies:</h3>
+- Electrical Fundamentals & Safety <br>
+- House Wiring & Electrical Installation <br>
+- Industrial Electrical Wiring<br>
+- Industrial Motor Control Systems<br>
+- Electrical Circuit Design & Connection<br>
+- Direct On Line (DOL) Motor Starter<br>
+- Star-Delta Motor Starter<br>
+- Forward & Reverse Motor Control<br>
+- Motor Control Circuit Design<br>
+- Magnetic Contactor & Relay Applications<br>
+- Overload & Short Circuit Protection<br>
+- Motor Troubleshooting & Maintenance<br>
+- Electrical Panel Board Wiring<br>
+- Electrical Testing & Measurement<br>
+<br>
+<h3>CERTIFICATION OF TECHNICAL TRAINING & COMPETENCY</h3>
+
+<P>This is to certify that the individual has received professional technical training at AdvanTEK BD. in Electrical Installation & Industrial Motor Control, covering Electrical Fundamentals, House Wiring, Industrial Electrical Installation, Motor Control Systems, DOL & Star-Delta Motor Starters, Forward & Reverse Motor Control, Electrical Protection Systems, and Motor Troubleshooting & Maintenance.
+
+During the training, the individual acquired comprehensive technical knowledge and practical skills in the above-mentioned areas, demonstrating the ability to understand electrical concepts, perform electrical installations, design and implement motor control circuits, and operate relevant electrical equipment in accordance with the training requirements and demonstrated competencies.
+
+AdvanTEK BD. hereby certifies that the individual has successfully received technical training and developed practical skills in Electrical Installation & Industrial Motor Control Systems.
+
+Certified & Recognized by: AdvanTEK BD. | Electrical Installation | Industrial Motor Control | Technical Skills Development</p>
+      <div class="chips">
+        <span class="chip"><b>Code:</b></span>
+        <span class="chip"><b>Batch:</b></span>
+        <span class="chip"><b>Form No.:</b></span>
+        
+      </div>
+    </div>
+    <section class="social">
+      <h3>Connect on Social Media</h3>      <div class="social-links">
+        <a href="https://www.facebook.com/advantekengineering" aria-label="Facebook">ⓕ Facebook</a>
+        <a href="https://www.youtube.com/@advantekbd/"ferrer" aria-label="YouTube">▶ YouTube</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in LinkedIn</a>
+        <a href="https://www.advantekbd.com/"pener noreferrer" aria-label="Instagram"> Website</a>
+      </div>
+      <p style="font-size:11px;color:var(--muted);margin:10px 0 0">Replace these links with your official social media profile URLs.</p>
+    </section>
+    <div class="footer">Student Portal • Keep student information accurate and up to date.</div>
+  </section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function(){
+ const target = window.location.href.split('#')[0];
+ const el = document.getElementById('qrcode');
+ if (window.QRCode) {
+   el.innerHTML = '';
+   new QRCode(el, {text: target, width: 180, height: 180, colorDark:'#123a72', colorLight:'#ffffff', correctLevel: QRCode.CorrectLevel.M});
+ } else {
+   el.innerHTML = '<p>QR library could not load. Please check your internet connection.</p>';
+ }
+})();
+</script>
+</body>
+</html>
